@@ -1,0 +1,112 @@
+﻿using System;
+
+namespace Teur
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int käimasolevAasta = 2025;
+            int OlenNiiVana = 16;
+            int tehteTulemus = käimasolevAasta + OlenNiiVana;
+
+            Console.WriteLine(tehteTulemus);
+
+            //float pikkus = 2.5f;
+
+            string sõnum = "Teie vanus on:6 ";
+
+            //bool miskion = false;
+
+            Console.WriteLine(sõnum + tehteTulemus);
+            Console.WriteLine("aaaaaaaaaaaaa");
+            Console.WriteLine("aaaaaaaaaaaaaaa");
+            Console.WriteLine("sõnum");
+
+            //int liidetav1 = 0;
+            //int liidetav2 = 0;
+            //Console.WriteLine("Tere, palun sisesta esimene liidetav: ");
+            //liidetav1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Tere, palun sisesta esimene liidetav: ");
+            //liidetav2 = int.Parse(Console.ReadLine());
+            //int liitmine = liidetav1 + liidetav2;
+            //Console.WriteLine($"Tehte tulemus: {liitmine}");
+            //Console.WriteLine("tehte Tulemus:"+liitmine);
+
+            //int lahutamine1 = 0;
+            //int lahutamine2 = 0;
+            //Console.WriteLine("Tere, palun sisesta esimene lahutatav: ");
+            //lahutamine1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Tere, palun sisesta esimene lahutatav: ");
+            //lahutamine2 = int.Parse(Console.ReadLine());
+            //int lahutamine = lahutamine1 / lahutamine2;
+            //Console.WriteLine($"Tehte tuleus: {lahutamine}");
+            //Console.WriteLine("tehte Tulemus:"+lahutamine);
+
+            //int korrutamine1 = 0;
+            //int korrutamine2 = 0;
+            //Console.WriteLine("Tere, palun sisesta esimene korrutatav: ");
+            //korrutamine1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Tere, palun sisesta esimene korrutatav: ");
+            //korrutamine2 = int.Parse(Console.ReadLine());
+            //int korrutamine = korrutamine1 * korrutamine2;
+            //Console.WriteLine($"Tehte tuleus: {korrutamine}");
+            //Console.WriteLine("tehte Tulemus:" + korrutamine);
+            int arv1 = 0;
+            int arv2 = 0;
+            Console.WriteLine("Tere , alun sisesta esimene arv");
+            arv1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Tere, palun sisesta teine arv: ");
+            arv2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Missugust tehet soovid teha? Kirjuta kas: + - / *");
+            string tehtetüüp = Console.ReadLine();
+            int tehe = 0;
+
+            if (tehtetüüp == "+"  /*tingimus siia*/) 
+            {
+                tehe = arv1 + arv2;
+            }
+
+            if (tehtetüüp == "-"  /*tingimus siia*/) 
+            {
+                tehe = arv1 + arv2;
+            }
+
+
+            if (tehtetüüp == "/"  /*tingimus siia*/)
+            {
+                tehe = arv1 + arv2;
+            }
+
+
+            if (tehtetüüp == "*"  /*tingimus siia*/) 
+            {
+                tehe = arv1 + arv2;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+    }
+}
