@@ -1,2 +1,6 @@
-# Teur
-sdfghj
+Teur 
+muutujad
+andmetüübid
+if
+githubi repo
+
