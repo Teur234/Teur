@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\Source\\Repos\\Teur\\Teur.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\Teur\\Teur\\Teur.csproj",
       "projectName": "Teur",
-      "projectPath": "C:\\Users\\opilane\\Source\\Repos\\Teur\\Teur.csproj",
+      "projectPath": "C:\\Users\\opilane\\source\\repos\\Teur\\Teur\\Teur.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\Source\\Repos\\Teur\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\source\\repos\\Teur\\Teur\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
