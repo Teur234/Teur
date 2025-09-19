@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Teur")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb5fbea80c7b96ea76f4314d0f5959ebbd1a71a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0ef9419c0b92e5db804f8e6a3d196288899bcf5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Teur")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Teur")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

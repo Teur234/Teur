@@ -1,9 +1,11 @@
 ﻿using System;
+using System.ComponentModel.Design;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Teur
 {
     internal class Program
+       
     {
         static void Main(string[] args)
         {
@@ -85,19 +87,78 @@ namespace Teur
             //{
             //     tehe = arv1 + arv2;
             //}
-            int arv1 = 0;
-            int arv2 = 0;
-            Console.WriteLine("Tere, palun sisesta esimene astendatav: ");
-            arv1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Tere, palun sisesta teine astendatav: ");
-            arv2 = int.Parse(Console.ReadLine());
-            
-            Console.WriteLine("Missugust tehet soovid teha? Kirjuta kas: ^ ");
-            string tehtetüüp = Console.ReadLine();
+            //int arv1 = 0;
+            // int arv2 = 0;
+            // Console.WriteLine("Tere, palun sisesta esimene astendatav: ");
+            // arv1 = int.Parse(Console.ReadLine());
+            // Console.WriteLine("Tere, palun sisesta teine astendatav: ");
+            // arv2 = int.Parse(Console.ReadLine());
 
-            int tehe = 0;
-            int tulemus = (int)Math.Pow(arv1 , arv2);
-            Console.WriteLine("tulemus on: " + tulemus);
+            // Console.WriteLine("Missugust tehet soovid teha? Kirjuta kas: ^ ");
+            // string tehtetüüp = Console.ReadLine();
+
+            // int tehe = 0;
+            //int tulemus = (int)Math.Pow(arv1, arv2);
+            // Console.WriteLine("tulemus on: " + tulemus);
+            string lemmikpuuvili = "";
+            bool milline = false;
+            string lemmikjuurvili;
+            Console.WriteLine("Kas sulle meeldivad puuviljad või juurviljad,kirjuta juurviljad kui meldivad juurviljad, aga jäta tühjaks kui meeldivad puuviljad");
+            milline = bool.Parse(Console.ReadLine());
+            if (milline == false)
+            {
+                if (lemmikpuuvili == "maaiskas")
+                {
+                    Console.WriteLine("Maasiaks ei ole puuvili");
+                }
+                else if (lemmikpuuvili == "pirn")
+                {
+                    Console.WriteLine("Kas hapu pirn või magus pirn,mõlemad on head");
+                }
+                else if (lemmikpuuvili == "pirn")
+                {
+                    Console.WriteLine("see ei kasva isegi mitte puu otsas");
+                }
+                else
+                {
+                    Console.WriteLine("Ei tunne seda puuvilja");
+                }
+            }
+
+            String Lemmikjuurvili;
+            if (milline == true)
+
+
+            {
+                Console.WriteLine("Sisesta oma lemmikjuurvili");
+                Lemmikjuurvili = Console.ReadLine();
+
+                if (Lemmikjuurvili == "porgand")
+                {
+                    Console.WriteLine("Porgand on tervislik");
+                }
+                else if (Lemmikjuurvili == "Kartul")
+                {
+                    Console.WriteLine("Kartul on Äge");
+                }
+                else if (Lemmikjuurvili == "Kapsas")
+                {
+                    Console.WriteLine("Kapsas on roheline");
+                }
+                else
+                {
+                    Console.WriteLine("Ei tunne seda puuvilja");
+                }
+            }
+
+
+
+
+
+
+
+
+
 
 
 

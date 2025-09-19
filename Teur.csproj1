@@ -3,7 +3,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace Teur
 {
-    internal class Program
+    internal class kjnh
     {
         static void Main(string[] args)
         {
