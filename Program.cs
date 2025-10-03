@@ -1,5 +1,7 @@
 ﻿using System;
 using System.ComponentModel.Design;
+using System.Numerics;
+using System.Runtime.InteropServices;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Teur
@@ -7,6 +9,7 @@ namespace Teur
     internal class Program
        
     {
+
         static void Main(string[] args)
         {
             int käimasolevAasta = 2025;
@@ -150,6 +153,7 @@ namespace Teur
                     Console.WriteLine("Ei tunne seda puuvilja");
                 }
             }
+
 
 
 
